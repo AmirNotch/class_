@@ -57,6 +57,8 @@ class myCalc2(var listNumbers2: MutableList<Int> = arrayListOf()): myCalc(listNu
             listNumbers2.add(b)
         }
         println("Класс наследник $listNumbers2")
+        val sorted = listNumbers2.sorted()
+        println("Отсортированный массив $sorted")
 
         var largestElement = listNumbers2[0]
         var largestElement1 = listNumbers2[0]
