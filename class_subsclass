@@ -37,7 +37,7 @@ open class myCalc(open var listNumbers: MutableList<Int> = arrayListOf()){
                 sum2 = sum2 + b
             }
         }
-        println("Сумма четные: $sum1")
+        println("Сумма чётных: $sum1")
         println("Сумма нечётных: $sum2")
     }
 
