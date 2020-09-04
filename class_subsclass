@@ -1,3 +1,6 @@
+import java.util.concurrent.ThreadLocalRandom
+import kotlin.test.assertTrue
+
 open class myCalc(open var listNumbers: MutableList<Int> = arrayListOf()){
 
     fun fillArrayWithRandom() {
